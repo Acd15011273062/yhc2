@@ -1,0 +1,170 @@
+body {
+    padding-top: 1.28rem;
+    //  padding-bottom: 0.7rem;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.6rem;
+    background: url("../images/back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.main {
+    width: 6.5rem;
+    height: 9rem;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border-radius: 0.3rem 0.3rem;
+    box-shadow: 0.04rem 0.04rem 0.4rem #346596;
+    background-color: white;
+    //h1企业名称
+    .top {
+        font-size: 0;
+        .e_name {
+            font-size: 0.36rem;
+            line-height: 0.36rem;
+        }
+        .wrong {
+            float: right;
+            font-size: 0;
+            span {
+                display: inline-block;
+            }
+            .icon_wrong {
+                width: 0.2rem;
+                height: 0.2rem;
+                background: url("../images/icon/error.png") no-repeat;
+            }
+            span:last-child {
+                font-size: 0.2rem;
+                line-height: 0.2rem;
+                margin-left: 0.1rem;
+                vertical-align: top;
+                color: #666;
+            }
+        }
+    }
+
+    > .enterpriseID {
+        font-size: 0;
+        line-height: 0;
+        font-weight: bold;
+        border-bottom: 0.01rem solid #333;
+        .website {
+            font-size: 0.28rem;
+            line-height: 0.48rem;
+            margin-top: 0.2rem;
+            color: #333;
+            vertical-align: top;
+        }
+        .icon_deletion {
+            display: inline-block;
+            float: right;
+            margin-top: 0.2rem;
+            width: 0.4rem;
+            height: 0.4rem;
+            line-height: 0.48rem;
+            background-image: url("../images/icon/deletion.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+    }
+
+    //账号部分
+    .act {
+        font-size: 0.34rem;
+        line-height: 0.34rem;
+        font-weight: normal;
+        margin-top: 0.8rem;
+        border-bottom: 0.01rem solid #333;
+        .account {
+            font-weight: 300;
+            font-size: 0.28rem;
+            line-height: 0.45rem;
+            margin-top: 0.2rem;
+        }
+        .eye {
+            display: block;
+            float: right;
+            vertical-align: middle;
+            font-size: 0;
+            padding-left: 0.1rem;
+            i {
+                display: block;
+                float: right;
+                width: 0.26rem;
+                height: 0.2rem;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin-top: 0.2rem;
+                &.not {
+                    background-image: url("../images/icon/eyeNot.png");
+                }
+                &.right {
+                    background-image: url("../images/icon/eyeRight.png");
+                }
+            }
+
+        }
+    }
+    .rememver {
+        margin-top: 0.4rem;
+        font-size: 0.28rem;
+        line-height: 0.28rem;
+        //忘记密码部分
+        .forget {
+            color: #3db9b1;
+            border-bottom: 0.01rem solid #3db9b1;
+        }
+        label {
+            float: right;
+            font-size: 0;
+            input {
+                width: 0.28rem;
+                height: 0.28rem;
+                border-radius: 0.02rem;
+            }
+            span {
+                margin-left: 0.1rem;
+                color: #333;
+                font-size: 0.28rem;
+                line-height: 0.28rem;
+                vertical-align: top;
+            }
+        }
+    }
+    .sub {
+        margin-top: 1.6rem;
+        input {
+            display: block;
+            margin: 0 auto;
+            width: 2.9rem;
+            height: 0.7rem;
+            font-size: 0.34rem;
+            font-weight: bolder;
+            color: white;
+            background-color: #3db9d1;
+            border-radius: 0.35rem;
+
+        }
+    }
+
+}
+.footer {
+    margin-top: 1.5rem;
+    color: white;
+    font-weight: normal;
+    font-size: 0;
+    text-align: center;
+    span {
+        display: inline-block;
+        font-size: 0.36rem;
+        line-height: 0.36rem;
+    }
+    :first-child {
+        margin-right: 0.4rem;
+    }
+}

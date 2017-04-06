@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./forget.css" />
+	</head>
+
+	<body>
+		<form class="header">
+			<ul>
+				<li>
+					<div class="tit">请输入您的手机号:</div>
+					<label>
+						<input type="text" placeholder="请输入账户名"/>
+					</label>
+				</li>
+				<li>
+					<div class="tit">请输入验证码:</div>
+					<label>
+						<input type="text" placeholder="请输入账户名"/>
+						<span class="validate"></span>
+					</label>
+				</li>
+				<li>
+					<div class="tit">设置您的密码:</div>
+					<label>
+						<input type="text" placeholder="请输入账户名"/>
+						<span class="eye" id="eyeparent">
+							<i id="eye" class="not"></i>
+						</span>
+					</label>
+				</li>
+				<li>
+					<div class="tit">确认密码:</div>
+					<label>
+						<input type="text" placeholder="请输入账户名"/>
+						
+						<span class="eye" id="eyeparent">
+							<i class="not"></i>
+						</span>
+						
+					</label>
+				</li>
+				<li class="validate_p clearfix">
+					<span class="validate_left">333</span>
+					<span class="validate_right">获取验证码</span>
+				</li>
+				<label>
+					<input type="submit" />
+				</label>
+
+			</ul>
+		</form>
+		<!--logo下的功能区域-->
+		<footer class="footer">
+			<span>产业赋能</span><span>智慧生态</span>
+		</footer>
+
+	</body>
+	<script type="text/javascript">
+		// 1rem = 100px;
+		function add() {
+			var html = document.documentElement;
+			var hei = html.clientWidth;
+			var fz = hei / 375 * 50 + "px";
+			html.style.fontSize = fz;
+		};
+		add();
+		window.addEventListener("resize", add, false);
+	</script>
+
+</html>

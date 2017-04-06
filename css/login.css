@@ -1,0 +1,222 @@
+body {
+  min-height: 12.06rem;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.6rem;
+  background-image: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/b5cefc129bb875b8d9c746c198430a184275e486.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.login {
+  width: 6.5rem;
+  height: 9rem;
+  margin: 0 auto;
+  padding-top: 0.8rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-radius: 0.3rem 0.3rem;
+  box-shadow: 0.04rem 0.04rem 0.4rem #346596;
+  background-color: white;
+}
+.login > .enterpriseID {
+  height: 0.56rem;
+  font-size: 0.36rem;
+  line-height: 0.36rem;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+.login > .enterpriseID .tit {
+  height: 0.56rem;
+  font-size: 0.36rem;
+  line-height: 0.36rem;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+.login .line {
+  display: block;
+  border-bottom: 0.02rem solid #3DB9d1;
+  width: 0.6rem;
+}
+.login .act {
+  font-size: 0.34rem;
+  line-height: 0.34rem;
+  font-weight: normal;
+  margin-top: 0.8rem;
+  border-bottom: 0.01rem solid #ccc;
+}
+.login .act div .actNum {
+  font-size: 0.34rem;
+  line-height: 0.34rem;
+  font-weight: normal;
+  margin-top: 0.8rem;
+}
+.login .act div .wrong {
+  display: none;
+  float: right;
+}
+.login .act div .wrong span {
+  display: inline-block;
+}
+.login .act div .wrong .icon_error {
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/2e9d6b7f77d5ff341905a6ed5eef690b44847389.png") no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+.login .act div .wrong span:last-child {
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  margin-left: 0.1rem;
+  color: #666;
+}
+.login .act .account {
+  font-weight: 300;
+  font-size: 0.28rem;
+  line-height: 0.45rem;
+  margin-top: 0.2rem;
+}
+.login .act .eye {
+  display: block;
+  float: right;
+  vertical-align: middle;
+  font-size: 0;
+  padding-left: 0.1rem;
+}
+.login .act .eye i {
+  display: block;
+  float: right;
+  width: 0.30rem;
+  height: 0.24rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.3rem;
+}
+.login .act .eye i.not {
+  background-image: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/4fc51f74a226a8a16b35d86d309bf4de29f51b31.png");
+}
+.login .act .eye i.right {
+  background-image: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/84ec5acedb4bd4bd019b6f83b1088be727725e77.png");
+}
+.login .act .icon_deletion {
+  display: inline-block;
+  float: right;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  display: none;
+}
+.login .act .icon_deletion i {
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  background-image: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/97cf4a8aed951d4dcc7fbe3d63afd95e80df9821.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right;
+}
+.login .rememver {
+  margin-top: 0.4rem;
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+}
+.login .rememver .forget {
+  color: #3db9b1;
+  border-bottom: 0.01rem solid #3db9b1;
+}
+.login .rememver label {
+  float: right;
+  font-size: 0;
+}
+.login .rememver label input {
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 0.02rem;
+}
+.login .rememver label span {
+  margin-left: 0.1rem;
+  color: #333;
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  vertical-align: top;
+}
+.login .rememver .prompt {
+  display: inline-block;
+  float: right;
+  margin-left: 0.1rem;
+  color: red;
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  vertical-align: top;
+  display: none;
+}
+.login .tip {
+  float: right;
+  font-size: 0;
+  margin-top: 0.3rem;
+}
+.login .tip span {
+  display: inline-block;
+}
+.login .tip .icon_error {
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/2e9d6b7f77d5ff341905a6ed5eef690b44847389.png") no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+.login .tip span:last-child {
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  margin-left: 0.1rem;
+  color: #666;
+  vertical-align: middle;
+}
+.login .sub {
+  margin-top: 1.6rem;
+}
+.login .sub input {
+  display: block;
+  margin: 0 auto;
+  width: 2.9rem;
+  height: 0.7rem;
+  font-size: 0.34rem;
+  font-weight: bolder;
+  color: white;
+  background-color: #3db9d1;
+  border-radius: 0.35rem;
+}
+.footer {
+  padding-top: 1.6rem;
+  width: 100%;
+  font-weight: normal;
+  font-size: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.footer span {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 0.36rem;
+  line-height: 0.36rem;
+}
+.footer span:first-child {
+  margin-right: 0.4rem;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}

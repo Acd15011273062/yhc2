@@ -1,0 +1,139 @@
+body {
+    background: url("../images/forget-back.png") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 0.6rem;
+}
+.header {
+    width: 6.5rem;
+    height: 9.8rem;
+    margin: 0 auto;
+    border-radius: 0.3rem 0.3rem;
+    box-shadow: 0.04rem 0.04rem 0.4rem #346596;
+    background-color: white;
+    ul {
+        padding-top: 0.4rem;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+        font-size: 0;
+        line-height: 0;
+        > li {
+            padding-top: 0.4rem;
+            border-bottom: 0.01rem solid #ccc;
+            .tit {
+                font-size: 0.34rem;
+                line-height: 0.34rem;
+                color: #333;
+                font-weight: bold;
+            }
+            label {
+                margin-top: 0.3rem;
+                padding-bottom: 0.1rem;
+                position: relative;
+                color: #ccc;
+                input {
+                    font-size: 0.28rem;
+                    color: #333;
+                    line-height: 0.28rem;
+                }
+                .validate {
+                    display: inline-block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 2.6rem;
+                    height: 0.8rem;
+                    background-color: #ebf2f5;
+                    border-radius: 0.02rem;
+                }
+                .eye {
+                    display: inline-block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    font-size: 0;
+                    padding-left: 0.2rem;
+                    padding-top: 0.2rem;
+                    padding-bottom: 0.1rem;
+                    i {
+                        display: block;
+                        width: 0.30rem;
+                        height: 0.24rem;
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        &.not {
+                            background-image: url("../images/icon/eyeNot.png");
+                        }
+                        &.right {
+                            background-image: url("../images/icon/eyeRight.png");
+                        }
+                    }
+
+                }
+            }
+        }
+        > .validate_p {
+            border-bottom: none;
+            padding-top: 0;
+            font-size: 0;
+            span {
+                margin-top: 0.4rem;
+                display: inline-block;
+                height: 0.74rem;
+                font-size: 0.28rem;
+                line-height: 0.74rem;
+                border-radius: 0.02rem;
+                border: 0.01rem solid #ccc;
+                text-align: center;
+            }
+            .validate_left {
+                width: 2.6rem;
+                background-color: #f8f9fa;
+                float: left;
+                color: #333;
+            }
+            .validate_right {
+                width: 2.89rem;
+                background-color: #3db9d1;
+                float: right;
+                color: #fff;
+            }
+        }
+        > label {
+            margin-top: 1rem;
+            > input {
+                display: block;
+                margin: 0 auto;
+                width: 2.9rem;
+                height: 0.7rem;
+                font-size: 0.34rem;
+                font-weight: bolder;
+                color: white;
+                background-color: #3db9d1;
+                border-radius: 0.35rem;
+            }
+        }
+
+    }
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0.57rem;
+    width: 100%;
+    font-weight: normal;
+    font-size: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    span {
+        color: #FFFFFF;
+        display: inline-block;
+        font-size: 0.36rem;
+        line-height: 0.36rem;
+    }
+    span:first-child {
+        margin-right: 0.4rem;
+    }
+}

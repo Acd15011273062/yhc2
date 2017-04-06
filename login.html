@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="shortcut icon" type="image/x-icon" href="//staticcdn.yhctech.com/static/img/4ba1ac6d564e7588c9d41c97684d242baa3c0142.ico" />
+		<meta name="key" type="hidden" content="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfs1/wLxKKElztd2LKni3qHxrsW8y5xGNt8lYpxDSVObh1fkD9Cy3UfWi5J6ihppwU8GnIQXV7xa2KewOJzAG/9sDuVAeDHp79FAI6yAw0Q7UJ4HYOHF55HaQZqdW8WFsEV8cB5KChUMeOpRi31vSGC039bpJfyo/7cfFTvGzphQIDAQAB">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<!--reset.css-->
+		<link rel="stylesheet" href=" http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/css/a31352d545f21f3b34038ff69f486367898f1cec.css" />
+		<!--login.css-->
+		<link rel="stylesheet" href=" http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/css/ebfca27399940e1fb39ad7231ba8e423ca9ed21f.css" />
+		<!--<link rel="stylesheet" href="./css/login.css" />-->
+		
+	</head>
+
+	<body>
+		<!--内容区域-->
+		<div class="container">
+			<!--上部内容区域-->
+			<form class="login" id="login" method="post">
+				<div class="enterpriseID">
+					<span class="tit">公司账号</span>
+				</div>
+				<span class="line"></span>
+
+				<!--账号-->
+				<label class="act">
+					<div>
+						<span class="actNum">账号:</span>
+						
+						<div class="wrong">
+							<span class="icon_error"></span><span>账号或密码错误</span>
+						</div>
+						
+					</div>
+					
+					
+					<input class="account" type="text" id="phone"
+						name="phone" value="" maxlength="11" placeholder="请输入您的账号/手机号" />
+					<span class="icon_deletion"><i></i></span>
+					
+				</label>
+
+				<!--密码-->
+				<label class="act">登录密码:<br />
+					<input id="pwd" class="account" name="pwd" value=""
+						type="password" placeholder="请输入您的密码"/>
+					<span class="eye" id="eyeparent">
+						<i id="eye" class="not"></i>
+					</span>
+				</label>
+
+				<!--忘记密码-->
+				<div class="rememver clearfix">
+					<a class="forget" href="javascript:;"><!--忘记密码？--></a>
+					<!--暂时隐藏记住密码-->
+					<label >
+						<input id="is_rem" type="checkbox" name="is_remember"/>
+						<span>记住密码</span>
+					</label>
+				</div>
+				
+				<div class="tip clearfix" style="display: none;">
+					<span class="icon_error"></span><span>请勿在公共场合记住密码</span>
+				</div>
+
+				<label class="sub">
+					<input type="submit" value="登录" />
+				</label>
+
+			</form>
+
+			<!--logo下的功能区域-->
+			<footer class="footer">
+				<span>产业赋能</span><span>智慧生态</span>
+			</footer>
+		</div>
+
+	</body>
+
+	<script>
+		function add() {
+			var html = document.documentElement;
+			var hei = html.clientWidth;
+			var fz = hei / 375 * 50 + "px";
+			html.style.fontSize = fz;
+			
+		};
+		add();
+		window.addEventListener("resize", add, false);
+	</script>
+	<!--一定要使用包含五个模块的核心js文件-->
+	<script src="http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/js/6865443a258954fa19b8aa682e1f4c77d42493d1.js"></script>
+	<script src="http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/js/3b2fe18a722e41ab25534367e3d11ebebf29f5ab.js"></script>
+	<!--加密的文件-->
+	<script src="http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/js/af1a7d54d287bf011bdcabdae7566077fa14b65b.js"></script>
+	
+	<script src="http://http://staticcdn.yhctech.com/static/js/441b0e639e2a0db2e51fb94d3468722d8d4526f5.js"></script>
+<!--<script src="./js/login.js"></script>-->
+</html>

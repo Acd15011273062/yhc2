@@ -1,0 +1,110 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: #314187;
+  padding-left: 0.2rem;
+  position: relative;
+  height: 0.88rem;
+}
+.header .top {
+  line-height: 0.88rem;
+  font-family: "microsoft yahei";
+  font-size: 0.3rem;
+  color: #FFF;
+}
+.header .top .icon_per {
+  float: right;
+  width: 0.88rem;
+  height: 0.88rem;
+}
+.header .top .icon_per i {
+  display: inline-block;
+  margin: 0.22rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/3fe4afa2ba716efbd5a385d5582339956ea75666.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.header .quit_out {
+  font-size: 0;
+  height: 0.88rem;
+  width: 100%;
+  display: flex;
+  background-color: #314187;
+  padding-left: 0.2rem;
+  position: absolute;
+  top: 0.88rem;
+  left: 0;
+  z-index: 100;
+}
+.header .quit_out.toggle {
+  display: none;
+}
+.header .quit_out .con {
+  flex: 1;
+  font-size: 0;
+  line-height: 0.88rem;
+}
+.header .quit_out .con > span {
+  /*自动隐藏文字*/
+  overflow: hidden;
+  /*文字隐藏后添加省略号*/
+  text-overflow: ellipsis;
+  /*强制不换行*/
+  white-space: nowrap;
+}
+.header .quit_out .con .hi {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 0.28rem;
+}
+.header .quit_out .con .long {
+  display: inline-block;
+  color: #3DB9D1;
+  font-size: 0.28rem;
+  margin-left: 0.2rem;
+  width: 3.9rem;
+}
+.header .quit_out .quit {
+  width: 2.75rem;
+  font-size: 0;
+  padding-top: 0.19rem;
+  padding-bottom: 0.19rem;
+}
+.header .quit_out .quit > span {
+  display: inline-block;
+  line-height: 0.5rem;
+  vertical-align: middle;
+}
+.header .quit_out .quit .line {
+  height: 0.5rem;
+  border-left: 0.01rem solid #C2C2C2;
+}
+.header .quit_out .quit .icon_out {
+  margin-left: 0.79rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/fc30ce76151ad16df1320ca76f56b398c641224e.png") no-repeat;
+  background-size: 100% 100%;
+}
+.header .quit_out .quit .word {
+  margin-left: 0.13rem;
+  font-family: "microsoft yahei";
+  font-size: 0.3rem;
+  color: #FFFFFF;
+}
+.content {
+  margin-top: 0.2rem;
+  margin-left: 0.19rem;
+}
+.content .product {
+  display: inline-block;
+  width: 3.45rem;
+  height: 3.4rem;
+  background: url("http://web-oss-hb2-test.oss-cn-beijing.aliyuncs.com/static/img/3e76ad722ce5a97cc9d979a30afbb23de74f976f.png") no-repeat center center;
+  background-size: 100% 100%;
+  border: 0.01rem solid #D8D8D8;
+  border-radius: 0.06rem;
+}
